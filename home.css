@@ -1,0 +1,127 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;} /* display these tags as block elements */
+body {
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+    background: url ("images/dark-wood.jpg");
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto;    /*20px on top/bottom and equal margin for left/right */
+    border: 2px solid #3e773e;
+    background-color: #fff
+}
+
+
+header {height: 130px;}
+header img{ width: 940px;}
+header img{
+    display: block;
+}
+
+nav li {
+    display:inline;
+    margin-right:40px;
+}
+
+nav,footer {
+    clear: both;
+    background-color: #aeaca8;
+    color: #fff;
+    height: 30px;
+    display: block
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+    display: block;
+}
+
+nav li a {color:#fff}
+
+a {text-decoration:none;}
+
+nav li a:hover, nav li a.current {
+    color: blue;
+}
+
+/* main section */
+.courses {
+    float: left;
+    width: 659px;
+    border-right: 1px solid green;
+}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border:1px solid red;
+    display: block;
+}
+
+.courses article {
+    overflow: auto;
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 80%;
+    display: block;
+}
+
+figcaption {
+    text-align:center;
+    font-size: 80%;
+    display: block;
+}
+
+hgroup {
+    margin-top: 0px; 
+    padding-top: 20px;
+}
+
+h2, h3 {
+    font-weight: normal;
+    font-family: 'Lobster', cursive;
+}
+
+h2 {margin: 10px 0px 5px 0px;}
+
+h3 {
+    margin-bottom: 10px;
+    color: blue;
+}
+
+/*sidebar*/
+aside {
+    width: 230px;
+    float: left;
+    padding-left: 20px;
+    display: block;
+}
+
+aside h2 {padding: 40px 0px 10px 0px;}
+
+.contact {padding-top: 15px;}
+
+aside article a {
+ display: block; /*change <a> tag(inline element) to a block element */
+ padding: 10px;
+ border-bottom: 1px solid #eee;
+}
+
+
+aside article a:hover {color: yellow;}
+
+/*footer*/
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
